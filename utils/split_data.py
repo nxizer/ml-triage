@@ -6,7 +6,7 @@ import base64
 import re
 from collections import defaultdict
 
-SPLIT_FILE = "/Users/weafo/Desktop/d2a/splits/splits.csv"
+SPLIT_FILE = "splits.csv"
 DATA_FILE_PREFIX = "2020-09-10_"
 
 # PROJECTS_LIST = ["httpd", "nginx", "libtiff", "openssl", "libav"]
