@@ -1,27 +1,11 @@
-import argparse
-import ast
 import csv
-import json
 import logging
 from pathlib import Path
-from typing import List
-
-import joblib
 import pandas as pd
-from catboost import CatBoostClassifier
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics import accuracy_score, classification_report
-from sklearn.model_selection import StratifiedShuffleSplit
-from sklearn.pipeline import FeatureUnion, Pipeline
-from sklearn.utils import shuffle
 from php_sard import (
     parse_args,
     configure_logging,
-    safe_parse_trace,
     balance_cwes,
-    build_vectorizer,
-    build_catboost,
-    build_pipeline,
     train,
     infer_cx
 )
