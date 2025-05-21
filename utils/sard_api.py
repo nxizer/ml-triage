@@ -8,7 +8,8 @@ LANGUAGES = ["c", "csharp", "php", "cplusplus", "java"]
 STATES    = ["good", "bad", "mixed"]
 LIMIT     = 100
 BASE_URL  = "https://samate.nist.gov/SARD/api/test-cases/search"
-BASE_DIR  = Path("../dataset")
+BASE_DIR  = Path("../dataset/sard_testcases")
+BASE_DIR.mkdir(parents=True, exist_ok=True)
 
 def format_seconds(sec: float) -> str:
     h = int(sec // 3600)
