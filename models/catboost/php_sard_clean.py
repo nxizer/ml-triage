@@ -1,7 +1,8 @@
 import csv
 import logging
-from pathlib import Path
 import pandas as pd
+
+from pathlib import Path
 from php_sard import (
     parse_args,
     configure_logging,

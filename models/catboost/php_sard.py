@@ -1,13 +1,11 @@
 import argparse
-import ast
 import csv
 import json
-import logging
-from pathlib import Path
-from typing import List
-
 import joblib
+import logging
 import pandas as pd
+from pathlib import Path
+
 from catboost import CatBoostClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import accuracy_score, classification_report
