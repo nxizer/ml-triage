@@ -5,7 +5,7 @@ import time
 import shutil
 from pathlib import Path
 import pandas as pd
-from SARD_API import format_seconds
+from sard_api import format_seconds
 
 LANGUAGES = ["csharp", "c", "php", "cplusplus", "java"]
 STATES    = ["good", "bad", "mixed"]
