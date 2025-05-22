@@ -11,7 +11,7 @@ export $ML_TRIAGE_HOME=<workdir>/ml-triage
 ## Requirements
 
 ## Obtain SARD data
-To run the model and other scripts you will need the NIST SARD testcases data,  
+To run the model and other scripts you will need the NIST SARD testcases data,
 which can be obtained three ways:
 1.  Run `./sard_testcases.sh` to automatically download and extract archive to the right place
     ```
