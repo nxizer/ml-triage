@@ -9,6 +9,11 @@ export $ML_TRIAGE_HOME=<workdir>/ml-triage
 ```
 
 ## Requirements
+To correcyly run all the code in the repository you need to install
+all pip packages listed in `requirements.txt`
+```
+python3 -m pip install -r requirements.txt
+```
 
 ## Obtain SARD data
 To run the model and other scripts you will need the NIST SARD testcases data,
